@@ -25,18 +25,22 @@ h1, h2 {
     gap: 10px;
     justify-content: center;
 }
-
+/*for desktop screens*/
 .stacked-images img {
     position:centre;
 	top:auto;
 	left:-100;
 	right:100;
-    height: auto;
-	max-width:100%;
+    height:auto;
+	width:100%;
 	object-fit:cover;
     border-radius: 80px;
-	object-fit: cover; /* Ensures images fill the space without distortion */
+	object-fit: cover; /* Ensures images fill the space without distortion */  
+/*for mobile screens*/
+width:100%; /* adjust to fill the mobile screen*/
+height: auto;
 }
+
 
 footer {
     text-align: center;
