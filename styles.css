@@ -29,8 +29,6 @@ h1, h2 {
 .stacked-images img {
     position:centre;
 	top:auto;
-	left:-100;
-	right:100;
     height:auto;
 	width:100%;
 	object-fit:cover;
