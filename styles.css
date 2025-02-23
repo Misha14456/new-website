@@ -27,6 +27,7 @@ h1, h2 {
 }
 /*for desktop screens*/
 .stacked-images img {
+@media (max-width: 767px)
     mas-width:none;
 	display:block;
 	position:centre;
@@ -39,15 +40,11 @@ h1, h2 {
 /*for mobile screens*/
 
 }
-@media (max-width: 767 px) {
-.stacked-images{
-	width:100%;
-	max-width:none;
-	display: block;
+.container{
+	margin: 0;
+	padding: 0;
+	width: 100;
 }
-}
-
-
 footer {
     text-align: center;
     padding: 10px;
