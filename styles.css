@@ -36,8 +36,9 @@ h1, h2 {
 	object-fit: cover; /* Ensures images fill the space without distortion */  
 /*for mobile screens*/
 object-fit: cover /*ensures images fill the space without distortion*/
-width:100%; /* adjust to fill the mobile screen*/
+max-width:767px;
 height: auto;
+width: 100% /* adjust to fill the mobile screen*/
 }
 
 
