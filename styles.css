@@ -27,7 +27,9 @@ h1, h2 {
 }
 /*for desktop screens*/
 .stacked-images img {
-    position:centre;
+    mas-width:none;
+	display:block;
+	position:centre;
 	top:auto;
     height:auto;
 	width:100%;
@@ -35,10 +37,7 @@ h1, h2 {
     border-radius: 80px;
 	object-fit: cover; /* Ensures images fill the space without distortion */  
 /*for mobile screens*/
-object-fit: cover 
-max-width: none;
-height: auto;
-width: 100% /* adjust to fill the mobile screen*/
+
 }
 @media (max-width: 767 px) {
 .stacked-images{
