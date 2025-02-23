@@ -12,6 +12,7 @@ body {
     align-items: center;      /* Vertically center content */
     min-height: 100vh;
     flex-direction: column;   /* Ensure the content stack vertically */
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
