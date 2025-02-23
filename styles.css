@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;color: #333;
+}
+
+header {
+    background-color: light yellow;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 200px;
+}
+
+h1, h2 {
+    margin: 1;
+}
+
+.stacked-images {
+    display: block;
+    gap: 10px;
+    justify-content: center;
+}
+
+.stacked-images img {
+    position:centre;
+	top:auto;
+	left:-100;
+	right:100;
+    height: auto;
+	max-width:100%;
+	object-fit:cover;
+    border-radius: 80px;
+	object-fit: cover; /* Ensures images fill the space without distortion */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: black;
+}
+.center-horizontally {
+    text-align: center;
+	font-size: 30px;
+	height: 30vh;
+}
+p {
+    font-style: italic; /* Italic text */
+    font-weight: bold; /* Bold text */
+    letter-spacing: 2px; /* Space between letters */
+    text-transform: uppercase; /* All caps */
+}
